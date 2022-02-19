@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Footer from "../../components/footer";
 import MainSvg from "../../components/mainSvg";
 import RecentImageList from "./imageTypes/recentImgList";
@@ -9,84 +9,100 @@ export default function Recent() {
 	const resentPhotos = [
 		{
 			userName: "alan walker",
-			linkOfImg: "/images/mac.png",
+			linkOfImg:
+				"https://images.unsplash.com/photo-1643715923961-3019006e3fbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
 			date: "2020/12/12 - 8:21",
 		},
 		{
 			userName: "alan walker",
-			linkOfImg: "/images/group.jpg",
+			linkOfImg:
+				"https://images.unsplash.com/photo-1643716116926-3d6e90257b52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
 			date: "2020/12/12 - 8:21",
 		},
 		{
 			userName: "alan walker",
-			linkOfImg: "/images/business.jpg",
+			linkOfImg:
+				"https://images.unsplash.com/photo-1643653773680-eb00565bcbf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
 			date: "2020/12/12 - 8:21",
 		},
 		{
 			userName: "alan walker",
-			linkOfImg: "/images/mac_book.jpg",
+			linkOfImg:
+				"https://images.unsplash.com/photo-1643653773680-eb00565bcbf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
 			date: "2020/12/12 - 8:21",
 		},
 		{
 			userName: "alan walker",
-			linkOfImg: "/images/mac.png",
+			linkOfImg:
+				"https://images.unsplash.com/photo-1643553041525-ef7f9f4655a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
 			date: "2020/12/12 - 8:21",
 		},
 		{
 			userName: "alan walker",
-			linkOfImg: "/images/group.jpg",
+			linkOfImg:
+				"https://images.unsplash.com/photo-1643716116926-3d6e90257b52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
 			date: "2020/12/12 - 8:21",
 		},
 		{
 			userName: "alan walker",
-			linkOfImg: "/images/business.jpg",
+			linkOfImg:
+				"https://images.unsplash.com/photo-1640622842924-3ae860f77265?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
 			date: "2020/12/12 - 8:21",
 		},
 		{
 			userName: "alan walker",
-			linkOfImg: "/images/mac_book.jpg",
+			linkOfImg:
+				"https://images.unsplash.com/photo-1643653773680-eb00565bcbf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
 			date: "2020/12/12 - 8:21",
 		},
 	];
 	const myResentPhotos = [
 		{
 			userName: "alan walker",
-			linkOfImg: "/images/mac.png",
+			linkOfImg:
+				"https://images.unsplash.com/photo-1643553041525-ef7f9f4655a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
 			date: "2020/12/12 - 8:21",
 		},
 		{
 			userName: "alan walker",
-			linkOfImg: "/images/group.jpg",
+			linkOfImg:
+				"https://images.unsplash.com/photo-1643716116926-3d6e90257b52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
 			date: "2020/12/12 - 8:21",
 		},
 		{
 			userName: "alan walker",
-			linkOfImg: "/images/business.jpg",
+			linkOfImg:
+				"https://images.unsplash.com/photo-1638913658828-afb88c3d4d11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
 			date: "2020/12/12 - 8:21",
 		},
 		{
 			userName: "alan walker",
-			linkOfImg: "/images/mac_book.jpg",
+			linkOfImg:
+				"https://images.unsplash.com/photo-1643653773680-eb00565bcbf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
 			date: "2020/12/12 - 8:21",
 		},
 		{
 			userName: "alan walker",
-			linkOfImg: "/images/mac.png",
+			linkOfImg:
+				"https://images.unsplash.com/photo-1643553041525-ef7f9f4655a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
 			date: "2020/12/12 - 8:21",
 		},
 		{
 			userName: "alan walker",
-			linkOfImg: "/images/group.jpg",
+			linkOfImg:
+				"/images/https://images.unsplash.com/photo-1643622802547-e84404182024?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80.jpg",
 			date: "2020/12/12 - 8:21",
 		},
 		{
 			userName: "alan walker",
-			linkOfImg: "/images/business.jpg",
+			linkOfImg:
+				"https://images.unsplash.com/photo-1640622842924-3ae860f77265?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
 			date: "2020/12/12 - 8:21",
 		},
 		{
 			userName: "alan walker",
-			linkOfImg: "/images/mac_book.jpg",
+			linkOfImg:
+				"https://images.unsplash.com/photo-1643653773680-eb00565bcbf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
 			date: "2020/12/12 - 8:21",
 		},
 	];
@@ -96,7 +112,7 @@ export default function Recent() {
 				<div className="relative h-auto w-full px-0 py-0">
 					<div className="relative h-auto w-full hidden items-center gap-64 py-16 overflow-hidden justify-center">
 						<div className="relative h-auto w-[500px]">
-							<div className="relative h-auto w-auto text-2xl font-light tex-gray-700">
+							<div className="relative h-auto w-auto text-2xl font-light text-gray-700">
 								Down are the most recent Photos uploaded in cloud.
 							</div>
 							<div className="relative h-auto w-auto">
@@ -145,7 +161,7 @@ export default function Recent() {
 						<div className="relative h-auto w-full">
 							<div className="relative w-full overflow-x-auto overflow-y-hidden h-[300px]">
 								<div className="absolute h-full w-auto flex items-center gap-2 py-4">
-									<div className="relative h-[250px] w-[300px] overflow-hidden rounded-xl cursor-pointer group border">
+									<div className="relative h-[250px] w-[300px] overflow-hidden rounded-xl cursor-pointer https://images.unsplash.com/photo-1643622802547-e84404182024?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80 border">
 										<div className="relative h-full w-full flex items-center justify-center">
 											<div className="relative h-auto w-auto">
 												<div className="relative h-auto w-auto grid gap-4 place-content-center place-items-center">
@@ -165,7 +181,7 @@ export default function Recent() {
 									{myResentPhotos.map((prop, index) => (
 										<MyRecentImageList props={prop} key={index} />
 									))}
-									<div className="relative h-[250px] w-[200px] overflow-hidden rounded-xl cursor-pointer group border">
+									<div className="relative h-[250px] w-[200px] overflow-hidden rounded-xl cursor-pointer https://images.unsplash.com/photo-1643622802547-e84404182024?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80 border">
 										<div className="relative h-full w-full flex items-center justify-center">
 											<div className="relative h-auto w-auto">
 												<div className="relative h-auto w-auto grid gap-4 place-content-center place-items-center">

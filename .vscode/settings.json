@@ -1,0 +1,17 @@
+{
+	"editor.wordWrap": "on",
+    "editor.fontLigatures": true,
+    "editor.tabSize": 4,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true,
+	"editor.defaultFormatter": null,
+	"[html]": {
+		"editor.suggest.insertMode": "replace",
+		"editor.autoClosingBrackets": "always",
+		"editor.maxTokenizationLineLength": 5500
+	},
+	"[javascript]": {
+		"editor.maxTokenizationLineLength": 5500,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}

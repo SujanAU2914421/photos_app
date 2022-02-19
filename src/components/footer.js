@@ -4,7 +4,7 @@ export default function Footer() {
 	return (
 		<>
 			<div className="relative h-auto w-full">
-				<div className="relative h-auto w-full pt-28 pb-28 px-32">
+				<div className="relative h-auto w-full pt-28 pb-16 xl:px-32 lg:px-32 md:px-16 px-4">
 					<div className="relative h-auto w-full">
 						<div className="relative h-auto w-full flex justify-between">
 							<div className="relative h-auto w-[300px]">
@@ -110,7 +110,7 @@ export default function Footer() {
 						</div>
 					</div>
 				</div>
-				<div className="relative h-[40px] w-full flex items-center justify-between px-32">
+				<div className="relative h-[40px] w-full flex items-center justify-between xl:px-32 lg:px-32 md:px-16 px-4">
 					<div className="relative text-[13px] font-light text-gray-500">
 						2021-Photos @copyright
 					</div>
